@@ -38,46 +38,27 @@ body{
 #navbar ul li a:hover{
     color: antiquewhite;
 }
-.outer{
+
+.containerD{
     display: flex;
     flex-direction: column;
     background-color: #29415F;
     margin: 0;
 }
-.container{
-    display: flex;
-    flex-direction: column;
-    background-color: #29415F;
-    margin: 0;
-}
-.outer h1{
+.containerD h1{
     color: white;
     text-align: center;
     font-size: 130px;
 }
 
-.row1{
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    background-color: #29415F;
-}
-
-.row2{
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    background-color: #29415F;
-}
-
-.cards{
+.card{
     padding:20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width:600px
 }
+
 .btns{
     background-color: #9B1818;
     color: white;
@@ -99,8 +80,4 @@ footer{
 }
 footer p{
     padding: 20px;
-}
-
-.imgs{
-    height: 300px;
 }
